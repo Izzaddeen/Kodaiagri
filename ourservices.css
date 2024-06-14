@@ -1,0 +1,190 @@
+*{
+    box-sizing:none;
+}
+.navbar-nav{
+    font-weight:500;
+    margin-left: 30%;
+    padding-top: 1.5%;
+    display:flex;
+    flex-wrap: wrap;
+    color: black;}
+.navbar{
+    background-color: white;
+    position:fixed;
+    margin-top: 2px;}
+    
+.headimg{
+    width: 30%;
+    margin-left: 20%;}
+#nav-toggle-button{
+    color: black;
+}
+.collapse{
+    float:right;}
+
+.ficon{
+    position: absolute;
+    padding-left: 85%;
+    top: 1px;}  
+.background img{
+   
+   height: 80vh;
+   width: 100%;
+    
+}
+.box{
+    background-color: none!important;
+    padding: 30px;
+    margin-top: -30%;
+    margin-left: 65%;
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+@media only screen and (max-width:768px){
+    .box{
+        
+        top: 70%;
+        margin-left: 10px;
+        padding: 5px;
+        width: 50%;
+        height: 35vh;
+        
+    }
+    .box h4{
+        font-size:4px;}
+
+    .box-button{
+            display:inline-block;
+            text-decoration: none;
+            background: none;
+            margin-top:0;
+        }
+        .box p{
+            font-size:8px;
+        }
+}
+.box h4{
+    font-size:15px;
+}
+.box-button{
+    padding: 10px;
+    background-color: transparent;
+    font-size: 13px;
+    color: black;
+}
+.box-button:hover {
+    color: white;
+    border-color: white;
+    
+}
+.mainc{
+    text-align:center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+.mainc p{
+  padding: 3% 0 7% 0;
+}
+.fullc h6{
+    font-size: 17px;
+    text-align: left;
+    
+}
+.fullc p{
+    text-align: left;
+    
+}
+
+.bgcon{
+    background-color: white;
+}
+.bgcon .centercon{
+    text-align:left;
+    padding:10%;
+    vertical-align: middle;
+}
+.bgcon1{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+}
+.bgcon1 h1{
+    padding: 10px 0 10px 0;
+}
+.bgcon1 p{
+    font-size:14px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+.bgcon2 .h3p{
+    vertical-align: middle;
+    padding: 25% 13% 10% 13%;
+    line-height: 2;
+}
+.bgcon3 h3{
+    font-family: "Beau Rivage",sans-serif;
+    font-size: 40px;
+    line-height: 1.1;
+    text-align: center;
+}
+ul .fi{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;}
+    
+.logo {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+.footertext{
+    
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #b8b8b8;
+    display: block;
+    line-height:2;
+}
+.owl-buttons {
+    display: none;
+  }
+.owl-carousel:hover .owl-buttons {
+    display: block;
+    
+  }
+  
+  .owl-item {
+    text-align: center;
+  }
+  
+  .owl-theme .owl-controls .owl-buttons div {
+    background: transparent;
+    color: #869791;
+    font-size: 40px;
+    line-height: 300px;
+    margin: 0;
+    padding: 0 60px;
+    position: absolute;
+    top: 0;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+    padding-left: 20px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 0;
+    padding-right: 20px;
+  }
+  
